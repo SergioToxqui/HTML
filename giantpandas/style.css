@@ -1,0 +1,19 @@
+a[href^="http://"]{
+    color: blue;
+}
+
+a[href^="https://"]{
+    color: purple;
+}
+
+li:nth-child(2) a {
+    font-style: italic;
+}
+
+li:nth-last-child(2) a {
+    font-weight: bold;
+}
+
+a[href*=".org"]{
+    text-transform: capitalize;
+}
