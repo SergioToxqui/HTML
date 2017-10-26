@@ -1,0 +1,15 @@
+body {
+    background-color: cornflowerblue;
+}
+h1 {
+    color: white;
+    }
+    
+p {
+    font-family: georgia;
+    }
+    
+li {
+    border: black;
+    border-width: 5px
+    }
