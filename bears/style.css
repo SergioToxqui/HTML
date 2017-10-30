@@ -1,0 +1,32 @@
+html {
+    font-size: 24px
+}
+
+@media (max-width: 691px) {  
+     body {
+        width: 30em;
+        padding: 0 30px;        
+        margin: 0 auto;         
+        text-align: justify;
+    }
+}
+
+@media (min-width: 691px) {  
+    body {
+        width: 40em;
+        padding: 0 30px;          
+        margin: 0 auto;          
+        text-align: justify;        
+    }
+   
+}
+
+img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
