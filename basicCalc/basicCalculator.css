@@ -1,0 +1,43 @@
+html {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 26px;
+    line-height: 3em;
+    text-shadow: 0 0 3px #00ff00;
+    color: #00ff00;
+    
+}
+table, td, th {
+    border: 1px solid #00ff00;
+    border-collapse: collapse;
+    
+}
+table{
+    width: 10em;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+#output {
+    text-align: right;
+    vertical-align: bottom;
+    font-weight: normal;    
+    font-size: 2em;
+    padding-bottom: 0.1em;
+    padding-right: 0.1em;
+    height: 5rem;
+    background-color: #000000;
+    color: cyan;
+}
+td {
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+}
+.col {
+    background-color: #000000;
+}
+.lastcol, .firstrow {
+    background-color: black;
+    color: cyan;
+    border: 2px solid cyan;
+}
